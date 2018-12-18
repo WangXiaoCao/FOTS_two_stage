@@ -1,10 +1,9 @@
-# Spam_OCR
+# FOTS_two_stage
 
-* 垃圾图像的文字检测。
+* 中文OCR。
 * 检测分支为EAST，识别分支为CRNN。
-* 不包含训练代码，仅是测试代码
+* 仅是测试代码
 * 训练数据集为 RCTW-17
-* 详细信息见：http://wiki.soulapp.cn/pages/viewpage.action?pageId=15436459
 
 ## Pre-requisite
 
@@ -21,16 +20,22 @@
 
 使用RCTW-17中文数据集。
 
-数据集位置：
+数据集下载：
     
-    "172.30.1.118:/home/datasets/qishuo/RCTW-17/"
+    http://rctw.vlrlab.net/dataset/
 
 
 ## How to use
 
-1. 测试检测分支：
+1. clone：
+    * `git clone https://github.com/MagicianQi/FOTS_two_stage`
+    * `cd ./FOTS_two_stage/`
+    * 下载模型及测试图像 `cd ./FOTS_two_stage/`
+    * 解压 `cd ./FOTS_two_stage/`
+    * `cd ./FOTS_two_stage/`
+2. 测试检测分支：
     * `python testing_detection_branch.py`
-2. 测试识别分支：
+3. 测试识别分支：
     * `python testing_recognition_branch.py`
-3. 测试OCR：
+4. 测试OCR：
     * `python testing_ocr.py`  
