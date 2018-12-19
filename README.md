@@ -30,9 +30,8 @@
 1. clone：
     * `git clone https://github.com/MagicianQi/FOTS_two_stage`
     * `cd ./FOTS_two_stage/`
-    * 下载模型及测试图像 `cd ./FOTS_two_stage/`
-    * 解压 `cd ./FOTS_two_stage/`
-    * `cd ./FOTS_two_stage/`
+    * 下载模型及测试图像 `wget https://github.com/MagicianQi/FOTS_two_stage/releases/download/v0.1/models_and_imgs.zip`
+    * 解压 `unzip models_and_imgs.zip`
 2. 测试检测分支：
     * `python testing_detection_branch.py`
 3. 测试识别分支：
